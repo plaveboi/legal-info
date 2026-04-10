@@ -3,8 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- MAXIMAL NO INDEX -->
+    <meta name="robots" content="noindex, nofollow, noarchive, nosnippet">
+    <meta name="googlebot" content="noindex, nofollow, noarchive, nosnippet">
+
     <title>Datenschutzerklärung</title>
     <link rel="icon" href="favicon.png" type="image/png">
+
     <style>
         :root {
             --bg-color: #050a08;
@@ -37,34 +43,22 @@
             backdrop-filter: blur(10px);
         }
 
-        h1, h2, h3 {
+        h1, h2 {
             color: var(--primary-green);
         }
 
         h1 {
             margin-top: 0;
-            font-size: 2.2rem;
             border-bottom: 1px solid var(--border);
             padding-bottom: 16px;
         }
 
         h2 {
             margin-top: 32px;
-            font-size: 1.35rem;
         }
 
         p {
             margin: 14px 0;
-            color: var(--text-main);
-        }
-
-        a {
-            color: var(--secondary-green);
-            text-decoration: none;
-        }
-
-        a:hover {
-            text-decoration: underline;
         }
 
         .muted {
@@ -76,20 +70,26 @@
             .container {
                 padding: 24px;
             }
-
-            h1 {
-                font-size: 1.8rem;
-            }
         }
     </style>
+
+    <!--
+    EXTRA PROTECTION (SERVER LEVEL EMPFOHLEN):
+
+    Falls möglich in Cloudflare setzen:
+    X-Robots-Tag: noindex, nofollow, noarchive, nosnippet
+
+    Das geht NICHT direkt im HTML, sondern über Headers.
+    -->
 </head>
+
 <body>
     <div class="container">
         <h1>Datenschutzerklärung</h1>
 
         <h2>1. Allgemeine Hinweise</h2>
         <p>
-            Diese Datenschutzerklärung informiert Sie über Art, Umfang und Zweck der Verarbeitung personenbezogener Daten beim Besuch dieser Website gemäß den geltenden datenschutzrechtlichen Vorschriften, insbesondere der Datenschutz-Grundverordnung (DSGVO).
+            Diese Datenschutzerklärung informiert über Art, Umfang und Zweck der Verarbeitung personenbezogener Daten beim Besuch dieser Website gemäß den geltenden Datenschutzvorschriften, insbesondere der DSGVO.
         </p>
 
         <h2>2. Verantwortlicher</h2>
@@ -99,82 +99,65 @@
             40227 Düsseldorf<br>
             Deutschland
         </p>
+        <p>E-Mail: ks.kontakt.mail@gmail.com</p>
+
+        <h2>3. Hosting über Cloudflare</h2>
         <p>
-            E-Mail: ks.kontakt.mail@gmail.com
+            Diese Website wird über Cloudflare bereitgestellt (Cloudflare, Inc., USA). Beim Besuch können technische Daten wie IP-Adresse, Browser, Uhrzeit und aufgerufene Inhalte verarbeitet werden.
+        </p>
+        <p>
+            Die Verarbeitung erfolgt auf Grundlage von Art. 6 Abs. 1 lit. f DSGVO zur sicheren Bereitstellung der Website.
+        </p>
+        <p>
+            Eine Datenübertragung in die USA kann nicht ausgeschlossen werden. Cloudflare ist nach dem EU-U.S. Data Privacy Framework zertifiziert.
         </p>
 
-        <h2>3. Hosting und Auslieferung der Website über Cloudflare</h2>
+        <h2>4. Einbindung von Font Awesome (CDN)</h2>
         <p>
-            Diese Website wird über Dienste von Cloudflare bereitgestellt. Anbieter ist Cloudflare, Inc., 101 Townsend St., San Francisco, CA 94107, USA.
+            Zur Darstellung von Icons wird Font Awesome über cdnjs.cloudflare.com eingebunden. Dabei kann eine Verbindung zu Servern von Cloudflare hergestellt werden, wodurch technische Daten wie die IP-Adresse übertragen werden können.
         </p>
         <p>
-            Beim Aufruf dieser Website können technisch erforderliche Daten verarbeitet werden, insbesondere die IP-Adresse, Informationen zum verwendeten Browser und Endgerät, Datum und Uhrzeit des Zugriffs, aufgerufene Inhalte sowie Protokolldaten zur Stabilität und Sicherheit der Website.
-        </p>
-        <p>
-            Die Verarbeitung erfolgt auf Grundlage von Art. 6 Abs. 1 lit. f DSGVO. Das berechtigte Interesse liegt in der sicheren, stabilen und effizienten Bereitstellung dieser Website.
-        </p>
-        <p>
-            Eine Verarbeitung von Daten in den USA kann dabei nicht ausgeschlossen werden. Cloudflare ist nach dem EU-U.S. Data Privacy Framework zertifiziert.
+            Dies erfolgt auf Grundlage von Art. 6 Abs. 1 lit. f DSGVO (berechtigtes Interesse an einer ansprechenden Darstellung der Website).
         </p>
 
-        <h2>4. Einbindung von Font Awesome über CDN</h2>
+        <h2>5. Lokale Inhalte</h2>
         <p>
-            Diese Website verwendet zur Darstellung von Icons Font Awesome. Die Einbindung erfolgt über das Content Delivery Network cdnjs.cloudflare.com.
-        </p>
-        <p>
-            Beim Laden der entsprechenden Dateien kann eine Verbindung zu Servern von Cloudflare hergestellt werden. Dabei können insbesondere die IP-Adresse sowie technische Verbindungsdaten verarbeitet werden.
-        </p>
-        <p>
-            Die Nutzung erfolgt auf Grundlage von Art. 6 Abs. 1 lit. f DSGVO. Das berechtigte Interesse liegt in einer einheitlichen und technisch ordnungsgemäßen Darstellung der Website.
-        </p>
-
-        <h2>5. Lokale Schriftarten und lokal eingebundene Medien</h2>
-        <p>
-            Die auf dieser Website verwendeten Schriftarten werden lokal bereitgestellt. Ebenso werden auf dieser Website eingebundene Medieninhalte wie Bilder und Videos lokal vom eigenen Webspace geladen, soweit sie Teil dieser Website sind.
-        </p>
-        <p>
-            Allein durch das Laden dieser lokal eingebundenen Dateien erfolgt keine zusätzliche Verbindung zu externen Schrift- oder Mediendiensten.
+            Schriftarten sowie Bilder und Videos werden lokal bereitgestellt. Beim Laden dieser Inhalte erfolgt keine zusätzliche Verbindung zu externen Anbietern.
         </p>
 
         <h2>6. Server-Logfiles</h2>
         <p>
-            Beim Besuch dieser Website werden durch den technischen Betrieb der Website automatisch sogenannte Server-Logfiles bzw. Protokolldaten verarbeitet. Dazu können insbesondere IP-Adresse, Browsertyp, Betriebssystem, Referrer-URL, Uhrzeit des Zugriffs und abgerufene Dateien gehören.
-        </p>
-        <p>
-            Diese Verarbeitung erfolgt zur Gewährleistung der Funktionsfähigkeit, Sicherheit und Missbrauchserkennung der Website auf Grundlage von Art. 6 Abs. 1 lit. f DSGVO.
+            Beim Aufruf dieser Website werden automatisch technische Daten erfasst (z. B. IP-Adresse, Browser, Uhrzeit). Diese dienen ausschließlich der technischen Sicherheit und Stabilität.
         </p>
 
-        <h2>7. Cookies und vergleichbare Technologien</h2>
+        <h2>7. Cookies</h2>
         <p>
-            Nach dem aktuellen technischen Stand dieser Website werden keine Cookies oder vergleichbaren Technologien eingesetzt, die eine Einwilligung nach § 25 TDDDG erfordern.
-        </p>
-        <p>
-            Sollte diese Website künftig um einwilligungspflichtige Dienste, insbesondere Analyse-, Marketing- oder Tracking-Technologien, erweitert werden, wird diese Datenschutzerklärung entsprechend angepasst.
+            Diese Website verwendet keine Cookies oder vergleichbaren Technologien, die eine Einwilligung erfordern.
         </p>
 
         <h2>8. Externe Links</h2>
         <p>
-            Diese Website enthält Links zu externen Websites und Plattformen, insbesondere zu Social-Media-, Streaming- und Shop-Diensten. Beim Anklicken eines solchen Links verlassen Sie diese Website. Für die Datenverarbeitung auf den verlinkten externen Seiten ist ausschließlich der jeweilige Anbieter verantwortlich.
+            Beim Anklicken externer Links (z. B. Instagram, Spotify, YouTube) verlassen Sie diese Website. Für die Datenverarbeitung der jeweiligen Anbieter sind diese selbst verantwortlich.
         </p>
 
         <h2>9. Speicherdauer</h2>
         <p>
-            Personenbezogene Daten werden nur so lange gespeichert, wie dies zur Erreichung der genannten Zwecke erforderlich ist oder gesetzliche Aufbewahrungspflichten bestehen. Technische Protokoll- und Sicherheitsdaten werden grundsätzlich nur im Rahmen der Erforderlichkeit gespeichert und anschließend gelöscht oder anonymisiert.
+            Daten werden nur so lange gespeichert, wie dies technisch erforderlich ist oder gesetzliche Pflichten bestehen.
         </p>
 
         <h2>10. Ihre Rechte</h2>
         <p>
-            Sie haben nach den gesetzlichen Vorschriften das Recht auf Auskunft über die Sie betreffenden personenbezogenen Daten, auf Berichtigung unrichtiger Daten, auf Löschung, auf Einschränkung der Verarbeitung, auf Datenübertragbarkeit sowie auf Widerspruch gegen die Verarbeitung Ihrer personenbezogenen Daten, sofern die gesetzlichen Voraussetzungen vorliegen.
+            Sie haben das Recht auf Auskunft, Berichtigung, Löschung, Einschränkung der Verarbeitung, Datenübertragbarkeit sowie Widerspruch gemäß DSGVO.
         </p>
 
-        <h2>11. Beschwerderecht bei einer Aufsichtsbehörde</h2>
+        <h2>11. Beschwerderecht</h2>
         <p>
-            Sie haben das Recht, sich bei einer Datenschutzaufsichtsbehörde über die Verarbeitung Ihrer personenbezogenen Daten zu beschweren.
+            Sie haben das Recht, sich bei einer Datenschutzaufsichtsbehörde zu beschweren.
         </p>
 
-        <h2>12. Aktualität und Änderungen</h2>
+        <h2>12. Aktualität</h2>
         <p>
-            Diese Datenschutzerklärung wird angepasst, wenn dies aufgrund rechtlicher, technischer oder tatsächlicher Änderungen erforderlich wird.
+            Diese Datenschutzerklärung wird bei Bedarf angepasst.
         </p>
 
         <p class="muted">Stand: April 2026</p>
