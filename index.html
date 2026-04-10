@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Datenschutzerklärung</title>
+    <style>
+        :root {
+            --bg-color: #050a08;
+            --card-bg: rgba(255, 255, 255, 0.03);
+            --primary-green: #00f5a0; /* Vibrantes Neongrün für Akzente */
+            --secondary-green: #00d9f5; /* Verlauf-Partner */
+            --text-main: #e0e0e0;
+            --text-muted: #a0a0a0;
+            --border: rgba(255, 255, 255, 0.1);
+        }
+
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            background-color: var(--bg-color);
+            background-image: 
+                radial-gradient(circle at 10% 20%, rgba(0, 245, 160, 0.05) 0%, transparent 40%),
+                radial-gradient(circle at 90% 80%, rgba(0, 217, 245, 0.05) 0%, transparent 40%);
+            color: var(--text-main);
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+            line-height: 1.8;
+            margin: 0;
+            padding: 60px 20px;
+            display: flex;
+            justify-content: center;
+        }
+
+        .container {
+            max-width: 850px;
+            width: 100%;
+            background: var(--card-bg);
+            backdrop-filter: blur(10px);
+            border: 1px solid var(--border);
+            padding: 60px;
+            border-radius: 24px;
+            box-shadow: 0 20px 50px rgba(0, 0, 0, 0.5);
+        }
+
+        h1 {
+            font-size: 2.5rem;
+            font-weight: 800;
+            margin: 0 0 40px 0;
+            background: linear-gradient(to right, var(--primary-green), var(--secondary-green));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            letter-spacing: -1px;
+        }
+
+        h2 {
+            font-size: 1.25rem;
+            font-weight: 600;
+            color: var(--primary-green);
+            margin-top: 50px;
+            margin-bottom: 15px;
+            display: flex;
+            align-items: center;
+        }
+
+        /* Kleine Linie vor den Überschriften */
+        h2::before {
+            content: "";
+            width: 20px;
+            height: 2px;
+            background: var(--primary-green);
+            margin-right: 15px;
+            border-radius: 2px;
+        }
+
+        p {
+            margin-bottom: 20px;
+            color: var(--text-main);
+        }
+
+        .address-box {
+            background: rgba(255, 255, 255, 0.02);
+            border: 1px solid var(--border);
+            padding: 30px;
+            border-radius: 16px;
+            margin: 25px 0;
+            font-style: normal;
+        }
+
+        .address-box strong {
+            color: #fff;
+            font-size: 1.1rem;
+        }
+
+        a {
+            color: var(--secondary-green);
+            text-decoration: none;
+            transition: opacity 0.2s;
+            word-break: break-all;
+        }
+
+        a:hover {
+            opacity: 0.8;
+            text-decoration: underline;
+        }
+
+        /* Scrollbar Styling */
+        ::-webkit-scrollbar { width: 10px; }
+        ::-webkit-scrollbar-track { background: var(--bg-color); }
+        ::-webkit-scrollbar-thumb { 
+            background: #1a2a24; 
+            border-radius: 5px; 
+        }
+        ::-webkit-scrollbar-thumb:hover { background: var(--primary-green); }
+
+        @media (max-width: 600px) {
+            .container { padding: 30px 20px; border-radius: 0; }
+            h1 { font-size: 1.8rem; }
+            body { padding: 0; }
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h1>Datenschutzerklärung</h1>
+
+    <h2>1. Allgemeine Hinweise</h2>
+    <p>Der Schutz Ihrer persönlichen Daten ist uns wichtig. Nachfolgend informieren wir Sie über die Erhebung, Verarbeitung und Nutzung personenbezogener Daten bei der Nutzung dieser Website.</p>
+
+    <h2>2. Verantwortlicher</h2>
+    <p>Verantwortlich für die Datenverarbeitung auf dieser Website ist:</p>
+
+    <div class="address-box">
+        <strong>Kerimcan Stoffregen</strong><br>
+        [Deine Straße + Hausnummer]<br>
+        [PLZ + Stadt]<br>
+        Deutschland<br><br>
+        E-Mail: <a href="mailto:plaveboi@gmail.com">plaveboi@gmail.com</a>
+    </div>
+
+    <h2>3. Zugriffsdaten (Server-Logfiles)</h2>
+    <p>Beim Besuch dieser Website werden automatisch Informationen durch den Hosting-Anbieter erfasst. Dies sind z. B. Browsertyp und Browserversion, verwendetes Betriebssystem, Referrer URL, Hostname des zugreifenden Rechners, Uhrzeit der Serveranfrage sowie die IP-Adresse.
+Diese Daten dienen ausschließlich der technischen Überwachung und Sicherheit der Website und werden nicht zur Identifikation von Personen verwendet.</p>
+
+    <h2>4. Google Fonts</h2>
+    <p>Diese Website nutzt zur einheitlichen Darstellung von Schriftarten sogenannte Google Fonts, die von Google bereitgestellt werden.
+Beim Aufruf einer Seite lädt Ihr Browser die benötigten Fonts direkt von den Servern von Google. Dabei wird Ihre IP-Adresse an Google übertragen.</p>
+
+    <p>Anbieter ist Google Ireland Limited, Gordon House, Barrow Street, Dublin 4, Irland.</p>
+
+    <p>Weitere Informationen zu Google Fonts finden Sie unter:<br>
+    <a href="https://developers.google.com/fonts/faq" target="_blank">https://developers.google.com/fonts/faq</a></p>
+
+    <p>Die Nutzung von Google Fonts erfolgt im Interesse einer einheitlichen und ansprechenden Darstellung unserer Website.</p>
+
+    <h2>5. Ihre Rechte</h2>
+    <p>Sie haben jederzeit das Recht auf Auskunft über Ihre gespeicherten personenbezogenen Daten, deren Herkunft und Empfänger sowie den Zweck der Datenverarbeitung. Außerdem haben Sie ein Recht auf Berichtigung, Sperrung oder Löschung dieser Daten.
+Bei Fragen zur Verarbeitung Ihrer Daten können Sie sich jederzeit an die oben angegebene E-Mail-Adresse wenden.</p>
+
+    <h2>6. Änderungen</h2>
+    <p>Wir behalten uns vor, diese Datenschutzerklärung anzupassen, damit sie stets den aktuellen rechtlichen Anforderungen entspricht.</p>
+</div>
+
+</body>
+</html>
